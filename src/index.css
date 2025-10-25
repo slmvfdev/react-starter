@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+    html {
+        @apply text-sm text-(--color-text-base) bg-(--color-bg-layout);
+    }
+}

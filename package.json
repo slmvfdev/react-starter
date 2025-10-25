@@ -10,8 +10,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@tailwindcss/vite": "^4.1.15",
+    "antd": "^5.27.6",
+    "common-ui-theme": "^1.0.4",
+    "lucide-react": "^0.546.0",
     "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react-dom": "^19.1.1",
+    "tailwindcss": "^4.1.15"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
