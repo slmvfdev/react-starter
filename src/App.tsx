@@ -1,4 +1,3 @@
-import './App.css'
 import {lightTheme, darkTheme} from "common-ui-theme";
 import {useTheme} from "@/hooks/useTheme.ts";
 import {Button, ConfigProvider, message, Select} from "antd";
