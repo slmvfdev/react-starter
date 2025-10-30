@@ -2,8 +2,11 @@ import {lightTheme, darkTheme} from "common-ui-theme";
 import {useTheme} from "@/hooks/useTheme.ts";
 import {Button, ConfigProvider, message, Select} from "antd";
 import {Moon, Sun} from "lucide-react";
+import {useTranslation} from "react-i18next";
+import {LanguageSwitcher} from "@/components/LanguageSwitcher.tsx";
 
 function App() {
+  const { t } = useTranslation()
   const [messageApi, contextHolder] = message.useMessage();
   const {mode, color, toggleMode, changeColor, themeOptions} = useTheme();
   return (
@@ -12,6 +15,8 @@ function App() {
         {contextHolder}
         <div className="min-h-dvh flex flex-col">
           <div className='flex justify-end items-center gap-4 p-5'>
+
+            <LanguageSwitcher/>
             <Button
               onClick={toggleMode}
               variant="filled"
@@ -27,7 +32,7 @@ function App() {
             />
           </div>
           <div className='flex-1 flex flex-col gap-10 items-center justify-center'>
-            <div className='text-6xl -translate-y-20 tracking-tighter'>Welcome to React Starter!</div>
+            <div className='text-6xl -translate-y-20 tracking-tighter'>{t('welcome')}</div>
             <Button type="primary" className='-translate-y-20' onClick={() => {
               messageApi.info('Hello, World!');
             }}>Say, hello!</Button>
