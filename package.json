@@ -13,12 +13,11 @@
     "test:e2e": "cypress open"
   },
   "dependencies": {
-    "@ant-design/v5-patch-for-react-19": "^1.0.3",
     "@reduxjs/toolkit": "^2.9.2",
     "@tailwindcss/vite": "^4.1.15",
-    "antd": "^5.27.6",
+    "antd": "^6.3.3",
     "axios": "^1.12.2",
-    "common-ui-theme": "^1.0.8",
+    "common-ui-theme": "^1.0.11",
     "i18next": "^25.6.0",
     "lucide-react": "^0.546.0",
     "react": "^19.1.1",
