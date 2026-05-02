@@ -1,4 +1,35 @@
 {
   "welcome": "Добро пожаловать в наше приложение",
-  "language": "Язык"
+  "language": "Язык",
+  "appName": "React Starter",
+  "logout": "Выход",
+  "login": {
+    "title": "Вход в систему",
+    "subtitle": "Войдите в свой аккаунт чтобы продолжить",
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "role": "Роль",
+    "submit": "Войти",
+    "usernameRequired": "Введите имя пользователя",
+    "passwordRequired": "Введите пароль",
+    "usernamePlaceholder": "Введите имя пользователя",
+    "passwordPlaceholder": "Введите пароль",
+    "success": "Успешный вход"
+  },
+  "sidebar": {
+    "dashboard": "Главная",
+    "admin": "Админ панель"
+  },
+  "dashboard": {
+    "welcome": "Добро пожаловать, {{name}}!",
+    "subtitle": "Это ваша панель управления",
+    "role": "Ваша роль",
+    "email": "Email адрес",
+    "management": "Управление",
+    "managementDesc": "Инструменты управления для администраторов и менеджеров"
+  },
+  "admin": {
+    "title": "Панель администратора",
+    "subtitle": "Управление пользователями"
+  }
 }

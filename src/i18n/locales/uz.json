@@ -1,4 +1,35 @@
 {
   "welcome": "Bizning ilovamizga xush kelibsiz",
-  "language": "Til"
+  "language": "Til",
+  "appName": "React Starter",
+  "logout": "Chiqish",
+  "login": {
+    "title": "Tizimga kirish",
+    "subtitle": "Davom etish uchun hisobingizga kiring",
+    "username": "Foydalanuvchi nomi",
+    "password": "Parol",
+    "role": "Rol",
+    "submit": "Kirish",
+    "usernameRequired": "Foydalanuvchi nomini kiriting",
+    "passwordRequired": "Parolni kiriting",
+    "usernamePlaceholder": "Foydalanuvchi nomingizni kiriting",
+    "passwordPlaceholder": "Parolingizni kiriting",
+    "success": "Muvaffaqiyatli kirildi"
+  },
+  "sidebar": {
+    "dashboard": "Bosh sahifa",
+    "admin": "Admin panel"
+  },
+  "dashboard": {
+    "welcome": "Xush kelibsiz, {{name}}!",
+    "subtitle": "Bu sizning boshqaruv panelingiz",
+    "role": "Sizning rolingiz",
+    "email": "Email manzil",
+    "management": "Boshqaruv",
+    "managementDesc": "Admin va menejer uchun boshqaruv vositalari"
+  },
+  "admin": {
+    "title": "Admin paneli",
+    "subtitle": "Foydalanuvchilarni boshqarish"
+  }
 }
