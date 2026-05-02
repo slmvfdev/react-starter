@@ -95,9 +95,9 @@ export function MainLayout() {
           breakpoint="lg"
           trigger={null}
           width={240}
-          className="!fixed !bg-(--color-bg-container) border-r border-(--color-border-secondary) left-0 top-0 bottom-0 z-20 overflow-y-auto"
+          className="fixed! bg-(--color-bg-container)! border-r border-(--color-border-secondary) left-0 top-0 bottom-0 z-20 overflow-y-auto"
         >
-          <div className="h-16 flex items-center justify-center gap-2 px-4 border-b border-[var(--color-border-secondary)]">
+          <div className="h-16 flex items-center justify-center gap-2 px-4 border-b border-(--color-border-secondary)">
             {!collapsed && (
               <span className="text-lg font-bold tracking-tight truncate">
                 {t('appName')}

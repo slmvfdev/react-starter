@@ -15,11 +15,11 @@ export function AuthLayout() {
 
   return (
     <ConfigProvider theme={mode === 'dark' ? darkTheme(color) : lightTheme(color)}>
-    <div className="min-h-dvh flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 p-4">
-      <div className="w-full max-w-md">
-        <Outlet />
+      <div className="min-h-dvh flex items-center justify-center bg-linear-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-950 dark:via-gray-900 dark:to-gray-950 p-4">
+        <div className="w-full max-w-md">
+          <Outlet />
+        </div>
       </div>
-    </div>
     </ConfigProvider>
   );  
 }
